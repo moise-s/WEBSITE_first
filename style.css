@@ -1,0 +1,91 @@
+
+:root {
+  font-family: 'Belleza', sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+.nav-link {
+  position: relative;
+  right: 5%;
+  margin-left: 2rem;
+}
+a {
+  text-decoration: none !important;
+}
+ul {
+  list-style: none;
+}
+nav {
+  width: 100%;
+  position: fixed !important;
+  border-bottom: 3px solid #57837b;
+  z-index: 100;
+}
+nav ul li a {
+  transition: color 0.3s;
+}
+#home {
+  align-items: center;
+  margin-bottom: -5rem;
+}
+#about {
+  /* background-image: url(/images/hero.jpg); */
+  overflow: hidden;
+}
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:15%;
+  height: auto;
+}
+#moises {
+  max-width:55%;
+  height:auto;
+}
+.text {
+  text-align: justify;
+}
+.title {
+  color: #57837b;
+
+}
+.title1 {
+  color: #57837b;
+}
+.grid {
+  display: grid;
+  gap: 2rem;
+}
+.section {
+  padding: 5rem 0;
+}
+.card-title {
+  text-align: center;
+}
+.card-body {
+  text-align: center;
+}
+.list-group-item {
+  text-align: justify;
+}
+.divider {
+  border: 1px;
+}
+.texto {
+margin-left: 2rem;
+}
+ul.foot {
+  display: flex;
+  justify-content: space-evenly;
+}
+.divider {
+border: 1px solid #57837b;
+}
+ul li a {
+  color: #57837b;
+}
+#home2 {
+  padding: 10px;
+}
